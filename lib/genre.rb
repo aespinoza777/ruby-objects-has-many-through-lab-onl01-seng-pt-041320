@@ -9,11 +9,7 @@ def initialize(name)
 end
 
 def songs
-  self.songs
-end
-
-def songs
-  songs.all.select {|song| song.genre == self}
+  Song.all.select {|song| song.genre == self}
 end
 
 def self.all
