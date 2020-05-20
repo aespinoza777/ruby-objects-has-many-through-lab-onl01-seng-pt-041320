@@ -10,7 +10,7 @@ end
 
 
 def appointments
-  @@all
+  
 end
 
 
