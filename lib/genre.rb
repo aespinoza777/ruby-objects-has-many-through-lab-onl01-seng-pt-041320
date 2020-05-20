@@ -12,7 +12,7 @@ def songs
   self.songs
 end
 
-def songs
+def song
   songs.all.select {|songs| song.genre == self}
 end
 
