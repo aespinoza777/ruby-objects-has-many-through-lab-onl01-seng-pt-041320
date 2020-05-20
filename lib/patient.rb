@@ -14,6 +14,10 @@ end
 
 def appointments
 Appointment.all.select { |appointment| appointment.paitent == self}
-
 end
+
+def self.all
+  @@all
+end
+
 end
