@@ -17,7 +17,7 @@ song.all.select {|song| song.artist == self}
 end
 
 def genres
-self.songs.map 
+self.songs.map
 end
 
 def new_song(new,genre)
