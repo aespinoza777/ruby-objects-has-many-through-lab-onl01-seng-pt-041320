@@ -8,4 +8,6 @@ def initialize(name)
   @@all << self
 end
 
+def new_appointment(date,doctor)
+  
 end
