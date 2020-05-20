@@ -21,7 +21,7 @@ def self.all
 end
 
 def artists
-self.songs.map{ |song| song.artist  }
+self.songs.map{|song| song.artist}
 end
 
 end
