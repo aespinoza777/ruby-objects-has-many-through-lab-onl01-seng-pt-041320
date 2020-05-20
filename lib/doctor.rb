@@ -13,4 +13,8 @@ def self.all
   @@all
 end
 
+def appointments
+  Appointment.all
+end
+
 end
