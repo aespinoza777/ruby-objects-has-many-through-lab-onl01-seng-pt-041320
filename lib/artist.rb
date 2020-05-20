@@ -13,7 +13,7 @@ def self.all
 end
 
 def songs
-song.all.select {|song| song.artist == self}
+Song.all.select {|song| song.artist == self}
 end
 
 def genres
