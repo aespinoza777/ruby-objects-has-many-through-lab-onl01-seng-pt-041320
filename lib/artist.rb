@@ -21,7 +21,7 @@ self.songs.map
 end
 
 def new_song(new,genre)
-  song.new(name,self,genre)
+  Song.new(name,self,genre)
 end
 
 end
