@@ -9,7 +9,7 @@ def initialize(name)
 end
 
 def songs
-  self.song
+  self.songs
 end
 
 def songs
